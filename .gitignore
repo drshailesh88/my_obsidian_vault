@@ -1,0 +1,13 @@
+# Obsidian workspace and cache
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/plugins/recent-files-obsidian/data.json
+.obsidian/cache
+
+# OS files
+.DS_Store
+.Trash/
+Thumbs.db
+
+# Local Claude settings (optional - remove if you want to sync these)
+.claude/settings.local.json
