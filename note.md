@@ -4,10 +4,10 @@
 	 So, doctors in India are mostly tied up to the tasks which are basically non-productive in nature. Some may or may not be productive in nature.  Most of us are getting messages on our WhatsApp. Some of these are appointment requests. Some of these are patients sending their PDFs and images of their reports asking our opinion. Most of us get the consultation requests to be done immediately. Most of us are alarmed about some ECG. We never know that our WhatsApp has some incoming ECG, some PDFs or other things. Triaging whatsapp is important, and in bigger hospitals, people have their secretaries who are between this doctor and patient layer. Patients usually send their reports and their ECGs and PDFs and appointment requests to the secretary. And such secretaries make the life of doctors easier. They find out: Which of the patient is asking for the appointment - Which is requesting for the reports to be seen. Which is having some medical emergency and needs to be called to the hospital immediately. Appointment coordination is made very easy if there is an available secretary with the doctors.
 	 I So what I want to see is every medical practitioner even in living in Tier 3 city of India having the capabilities of a staff that doctor in a corporate hospital in a Tier 1 city like Delhi and Mumbai has. And yes, I know that that there are apps available for almost everything that I've talked about. As doctors, we do not want to be fighting 10 different tools for this job. This is just wasting time thinking that you are saving time, and it does not frankly translate into increased productivity using all those tools. 
 	 
-  1. What would make a doctor say “this is better than a human secretary”?
+2. What would make a doctor say “this is better than a human secretary”?
 I have seen these secretaries work. They ask for holidays, they do not pick up phones for coordinating appointments when the duty time is off. They need a periodic raise in their salaries, and not everybody can afford a human help. It is not going to come free of cost, and it is a high pressure job. Most of the times, there can be conflict between our doctor and their secretaries because of some issues. The secretary might not take call when it is important, and they might not realize that what they did. Something which increases productivity, saves my time, saves my money, is continuously available, and takes care of a cognitive load would definitely be better than a secretary. 
  
-  2. What should the product not do (explicit exclusions)?
+  3. What should the product not do (explicit exclusions)?
    no doctor would like the secretary to auto prescribe on his or her behalf. That is for sure. I would not like my secretary replying to my patients on WhatsApp that you should be taking X and Y drug and come back to us with X and Y reports after four, five days without taking my approval. This is not... This is... Product should not do this. It should find out which of the patients who are asking for such help and I will write the prescription, maybe I'll guide the product to do this but it should not be auto prescribing and that is most important thing. Whether the product is living in EMR app or patient's WhatsApp and my WhatsApp, it should not be auto prescribing
 
   Users & Settings
@@ -80,20 +80,38 @@ I have not decided on this one.
   26. How should the assistant explain uncertainty to patients?
   27. What should be the escalation thresholds for humans?
   28. Do you want templated responses or free‑form AI replies?
+regarding 26-28 
+This is what I would want from AI replies. I don't want templated responses; templated responses sound so much like coming from the 2020s, and we have moved so fast in the AI space in 2025, 2026, and 2024 that templated responses seem so 2010s 
+in case of any uncertainty, the response should be given by the doctor itself. The query and things should be escalated to the doctor or someone who's managing the bot or the application 
 
   Deployment & Operations
   29. Cloud vs on‑premise vs hybrid?
   30. Do you need offline or low‑bandwidth support?
   31. Who will maintain the system (your team vs clinic IT)?
+ now regarding questions from 29 to 31
+I have thought about all the scenarios:
+
+- Having a desktop app
+- Having clouds
+- Having a hybrid system
+- I've thought about Railway
+- I've thought about Versel
+- I've thought about GCP
+- I've thought about AWS
+
+I've thought about everything that you can think of, I've thought about them. I am not able to come to a right conclusion. What should be my go-to for this system for deployment and operations? Since I'm not a DevOps guy, I don't have a training in this background. I would need your hand-holding, your guidance, and your discussions and your brainstorming from your end to help me decide on this.  obviously, this will not be maintained by the clinic guys. It would be maintained by us only, by me initially, and by my team, which will gradually expand. So the responsibility of running this and maintaining this would be on us 
 
   Business & Go‑to‑Market
   32. Pricing model preference (per doctor, per clinic, per message)?
   33. Who signs the contract and who pays?
   34. What is the expected onboarding effort per clinic?
+ I thought that I would be running Google ads and Meta ads, and I would be taking demos in conferences  and I would be expanding my team to go and meet various doctors in their clinics and show them what our software is capable of. But that would be after we have onboarded some of the members to sustain the salary of sales guys
 
   Timeline & Resources
   35. What is your desired timeline for MVP?
+  1-3 months 
   36. How many engineers/designers are available?
+   there are only two engineers, Claude Code and Codex, that I have in my team  similarly, there are only two designers: Claude Code  with front-ended skills and Gemini CLI  I don't have the budget for developers, engineers, and DevOps team 
   37. What is your budget range for initial development and infrastructure?
 
   Metrics
