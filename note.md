@@ -57,18 +57,24 @@ some of the patients do not understand what is OD and BD, so at times that needs
   17. What patient data is essential for v1 (name, age, diagnosis, meds, allergies, etc.)?
   18. Do you need full EMR storage or only a “conversation + summary” record?
    it is how I would like to think about the storage, so suppose a patient comes to me today by the name of XYZ. He has his identifiers, so I would like to be aware of his situation and comorbidities and treatment that I wrote if needed 5 years from now also  i should be able to talk to the agent in natural language and it should be able to fetch me the records from previous visits and I should be able to see those records by my own eyes and the agent should be having the capabilities to bring me the summary of all the previous records it has. And the records may be in form of his old PDFs that I am having and may be in form of old JPEGs that I am having, it may be in form of old prescriptions that I have stored. So records may be in multiple forms and my secretary or my agent should be able to talk to those, fetch information from those and present to me those prescriptions or data or PDFs. So the choice would be, at the end of the day, choice would be on me. If I want to manually analyze the records, I should be able to see it like we are currently doing with applications like a Practo and Helplix as of now or if I would like the AI to summarize it to understand what everything is there, so AI agent should also be having the capabilities to do it. 
-   
+    so if I tell you we see patients in four ways there are four ways by which we are encountering the patients in our OPDs. One patient is coming to our OPD for the first time and there is no previous history of any records or illness or medications taken. Second he's my own follow-up patient and he's coming with a prescription written by me previously. Third is patient has sought multiple health groups or he has seen multiple doctors outside my setting. Maybe he has gone to 10 different hospitals. Maybe he has gone to one different hospital and is now coming back to me. Number four is teleconsultation. So I would like all these four routes to be taken care of. There would be information which would be coming to me like for the first scenario and second scenario patient is my own follow-up patient so his previous and third scenario patient is my own follow-up patient. These records would be with me; it should be with me. So, my that is probably the easiest thing to do. Third scenario patient has already seen multiple doctors, so an easy thing to do in this scenario would be that I should be able to open my WhatsApp, send my secretary the information that I am sending such and such patient's records please summarize them for me. When I scan those by my WhatsApp and send my secretary those PDFs and all those Apex, my secretary would be able to deeply analyze everything and come up with a summary or a detailed chronological history of present illness or detailed medical records. It should be able to synthesize what all happened. This happened, this happened, this happened, this happened; then this was done, then this was done, then this was done. So that type of workflow should be possible. Fourth is teleconsultation. So, teleconsultation in teleconsultation, people usually send you your records. That's what I said the app should be able to show me the records when I want. When I ask the agent, it should be able to summarize from the records it has 
   19. How long should data be retained?
-
+I have not decided on this one.
   Compliance & Safety
   20. Which Indian regulations or standards must be followed?
+   in future iterations, I would like to be as heavily compliant as possible to as many regulators as possible. HIPAA compliance, and other compliance, and multiple compliances. I would like to solve them, but for v1, we can leave this compliance issue and we'll sort it out when we find some paying customers.  but broadly we should be making architectural decisions based on this consideration that we would definitely require some compliance things to be taken care of in the future. So we should not be making stupid decisions that would create problems for us in the future 
   21. What is your risk tolerance for AI errors (low/medium/high)?
+  ai errors = end of app
   22. Should the assistant ever send medical advice directly to patients without doctor review?
+   unsolicited advice, unmonitored advice, should never go out to patients without doctor's review 
 
   Integrations
   23. Do you need integrations with existing EMRs (HealthPlex, Practo) or start standalone?
+   ease of migrating in and migrating out sounds interesting; that will be probably added in some later versions, not in this version
   24. Which external services are required (SMS gateway, WhatsApp Business API, payment, labs)?
+   SMS, Whatsapp, Payment - this would be the minimum 
   25. Are there existing hospital systems you must connect to?
+  no hospital systems to connect to in First version 
 
   AI Behavior & Controls
   26. How should the assistant explain uncertainty to patients?
