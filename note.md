@@ -37,50 +37,59 @@ some of the patients do not understand what is OD and BD, so at times that needs
 
   Communication Channels
   12. Which channels are mandatory at launch (WhatsApp, SMS, phone, email, in‑app)?
-  as far as I understand, nobody is going to install a separate app for this purpose. No patient is going to install a separate, untested app for merely talking to the doctor. I don't know of people who would gladly download apps that make no sense outside of consultations. I myself have encountered multiple apps which came and went by and nobody downloaded them. Most people would instantly delete them after talking to the doctor, so it would make sense if the 
-  13. Are patients already using a specific channel that cannot change?
+  as far as I understand, nobody is going to install a separate app for this purpose. No patient is going to install a separate, untested app for merely talking to the doctor. I don't know of people who would gladly download apps that make no sense outside of consultations. I myself have encountered multiple apps which came and went by and nobody downloaded them. Most people would instantly delete them after talking to the doctor, so it would make sense if the  if the app system was connected to the doctor and the patient, things that people already use like WhatsApp, like SMS, like phone and like email.  in the initial phase, I would like WhatsApp and email functionality. There should be doctor-patient and patient-secretary communication going on over WhatsApp. The secretary should be able to send the prescription via WhatsApp and email to the patient who is receiving. This is the minimum I would want at in a starting phase.  later on, I would like to have this secretary talk. It should be able to talk to the doctor. It should be able to talk to the patients. It should have a voice.  this is a feature which can wait and we don't need to have this in v1 but definitely in future we should be having it 
+  13. Are patients already using a specific channel that cannot change? 
   14. Do you need voice calls or only text/chat?
 
   Prescriptions & Documentation
-  15. What is the minimum required prescription output format (PDF, print, WhatsApp image, etc.)?
-  16. Are prescriptions primarily handwritten today or typed?
-  17. Do you want OCR from handwritten notes in v1, or manual entry assisted by AI?
+  15. What is the minimum required prescription output format (PDF, print, WhatsApp image, etc.)? 
+  the prescription output format required is:
+
+- At least PDF
+- Minimum we should be sending anybody is a PDF
+- Sometimes, when people are sitting in the OPD, they would like to carry a printed format of the prescription with them, so print is also important
+  15. Are prescriptions primarily handwritten today or typed?
+   in majority of places, prescriptions are primarily handwritten by pen and paper  and I want to change that. I want to change the habits of a million doctors and bring them to this app. And I won't be able to do that if I increase friction in the workflows of the doctors 
+  16. Do you want OCR from handwritten notes in v1, or manual entry assisted by AI?
+   OCR is important because most of the documents that would be coming might require OCR in PDF understanding by the secretary. This is an important feature as far as I understand
 
   Data & Records
-  18. What patient data is essential for v1 (name, age, diagnosis, meds, allergies, etc.)?
-  19. Do you need full EMR storage or only a “conversation + summary” record?
-  20. How long should data be retained?
+  17. What patient data is essential for v1 (name, age, diagnosis, meds, allergies, etc.)?
+  18. Do you need full EMR storage or only a “conversation + summary” record?
+   it is how I would like to think about the storage, so suppose a patient comes to me today by the name of XYZ. He has his identifiers, so I would like to be aware of his situation and comorbidities and treatment that I wrote if needed 5 years from now also  i should be able to talk to the agent in natural language and it should be able to fetch me the records from previous visits and I should be able to see those records by my own eyes and the agent should be having the capabilities to bring me the summary of all the previous records it has. And the records may be in form of his old PDFs that I am having and may be in form of old JPEGs that I am having, it may be in form of old prescriptions that I have stored. So records may be in multiple forms and my secretary or my agent should be able to talk to those, fetch information from those and present to me those prescriptions or data or PDFs. So the choice would be, at the end of the day, choice would be on me. If I want to manually analyze the records, I should be able to see it like we are currently doing with applications like a Practo and Helplix as of now or if I would like the AI to summarize it to understand what everything is there, so AI agent should also be having the capabilities to do it. 
+   
+  19. How long should data be retained?
 
   Compliance & Safety
-  21. Which Indian regulations or standards must be followed?
-  22. What is your risk tolerance for AI errors (low/medium/high)?
-  23. Should the assistant ever send medical advice directly to patients without doctor review?
+  20. Which Indian regulations or standards must be followed?
+  21. What is your risk tolerance for AI errors (low/medium/high)?
+  22. Should the assistant ever send medical advice directly to patients without doctor review?
 
   Integrations
-  24. Do you need integrations with existing EMRs (HealthPlex, Practo) or start standalone?
-  25. Which external services are required (SMS gateway, WhatsApp Business API, payment, labs)?
-  26. Are there existing hospital systems you must connect to?
+  23. Do you need integrations with existing EMRs (HealthPlex, Practo) or start standalone?
+  24. Which external services are required (SMS gateway, WhatsApp Business API, payment, labs)?
+  25. Are there existing hospital systems you must connect to?
 
   AI Behavior & Controls
-  27. How should the assistant explain uncertainty to patients?
-  28. What should be the escalation thresholds for humans?
-  29. Do you want templated responses or free‑form AI replies?
+  26. How should the assistant explain uncertainty to patients?
+  27. What should be the escalation thresholds for humans?
+  28. Do you want templated responses or free‑form AI replies?
 
   Deployment & Operations
-  30. Cloud vs on‑premise vs hybrid?
-  31. Do you need offline or low‑bandwidth support?
-  32. Who will maintain the system (your team vs clinic IT)?
+  29. Cloud vs on‑premise vs hybrid?
+  30. Do you need offline or low‑bandwidth support?
+  31. Who will maintain the system (your team vs clinic IT)?
 
   Business & Go‑to‑Market
-  33. Pricing model preference (per doctor, per clinic, per message)?
-  34. Who signs the contract and who pays?
-  35. What is the expected onboarding effort per clinic?
+  32. Pricing model preference (per doctor, per clinic, per message)?
+  33. Who signs the contract and who pays?
+  34. What is the expected onboarding effort per clinic?
 
   Timeline & Resources
-  36. What is your desired timeline for MVP?
-  37. How many engineers/designers are available?
-  38. What is your budget range for initial development and infrastructure?
+  35. What is your desired timeline for MVP?
+  36. How many engineers/designers are available?
+  37. What is your budget range for initial development and infrastructure?
 
   Metrics
-  39. What metrics define success in the pilot (time saved, response time, patient satisfaction)?
-  40. What is an acceptable error rate for triage/response?
+  38. What metrics define success in the pilot (time saved, response time, patient satisfaction)?
+  39. What is an acceptable error rate for triage/response?
