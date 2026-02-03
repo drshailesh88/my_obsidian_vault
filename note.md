@@ -24,14 +24,20 @@ I have seen these secretaries work. They ask for holidays, they do not pick up p
 appointment request 
 opinions on reports. Reports may be incoming in the form of PDFs, JPEGs, or PNGs 
 OPD availability on the day.  the secretary usually tells the patients that Doxab is available on this particular day or not. So that is one of the requests that we usually get, and that is one of the requests that I want to be taken care of. 
-some of the patients do not understand what is OD and BD, so at times that needs to be explained -   
+some of the patients do not understand what is OD and BD, so at times that needs to be explained - although that would be simplified by the app that we are building. That would also be a prescription writer that would categorically tell the patients that OD and BD stand for. But sometimes patients do ask silly questions, which of the following medications are supposed to be taken in the morning, which of the following medications are taken to be in the evening. So that is one aspect that I would like to be taken care of. 
+ then patients usually ask for alternative medications. Some of the times medications are not available in the pharmacy that they are looking for. So they ask for the alternative brand names that they want to use. Alternative brands, this is one thing that people like to know, and this is one of the common requests that we get in our messages 
+ then there are messages in which patients usually ask, "With what kind of investigation should I come up with during my follow-up?" Those are some specialty-specific investigations. In my specialty, there is a certain number of tests that I usually order most of the post-PTCA patients, post-CABG patients. So, in every specialty, there is a set number of tests which usually patients are asked to get. It is not a pattern, but most of the tests make sense in majority of these people 
  
   9. What are the top 3 “urgent” cases the assistant must escalate immediately?
+   medical emergencies have to be identified by all means and they should be escalated to the doctor immediately. Attention should be brought to both the doctor that some action is urgently required from your side, and also the patient should also be made aware that this is important 
   10. What is the ideal triage outcome set (e.g., respond, schedule, escalate, request info)?
+  yeah, that makes sense. The response schedule escalates the request info that makes sense 
   11. How should the system handle after‑hours messages?
+  so, that depends upon different specialties and different types of complaints which are incoming. Most of the times, when there is a routine request, I would like it to respond like a human would. Not to reply after office hours. Some doctors would like that after office hours also. Such a message as an interring. But all doctors would like that emergencies have to be correctly identified and escalated.
 
   Communication Channels
   12. Which channels are mandatory at launch (WhatsApp, SMS, phone, email, in‑app)?
+  as far as I understand, nobody is going to install a separate app for this purpose. No patient is going to install a separate, untested app for merely talking to the doctor. I don't know of people who would gladly download apps that make no sense outside of consultations. I myself have encountered multiple apps which came and went by and nobody downloaded them. Most people would instantly delete them after talking to the doctor, so it would make sense if the 
   13. Are patients already using a specific channel that cannot change?
   14. Do you need voice calls or only text/chat?
 
